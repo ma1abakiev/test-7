@@ -1,0 +1,25 @@
+.welcome__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 34px;
+  color: #000000;
+}
+.welcome__content {
+  margin-top: 60px;
+}
+.welcome__content {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome__item {
+  flex: 0 0 280px;
+}
+.welcome__img {
+  margin-bottom: 20px;
+}
+.welcome__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}

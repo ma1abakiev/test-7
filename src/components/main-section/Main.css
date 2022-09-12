@@ -1,0 +1,39 @@
+.section{
+    margin-top: 20px;
+    width: 100%;
+    height: 480px;
+    background-image: url(./main-section.img/background.jpg);
+}
+.section-background{
+    width: 53.8%;
+    height: 480px;
+    background: #00093C;
+    /* background-image: url(./main-section.img/Group\ 594.png); */
+}
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    margin-left: 26%;
+}
+.section-subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    color: #FFFFFF;
+}
+h1{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}

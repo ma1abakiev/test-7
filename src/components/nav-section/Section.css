@@ -1,0 +1,119 @@
+.nav-section{
+    max-width: 912px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.nav-before::before{
+    content: url(./nav-section.img/Union.svg);
+    margin-left: -70px;
+}
+.nav-box{
+    margin-top: -45px;
+   margin-left: -100px;
+}
+.nav-txt{
+    width: 240px;
+    margin-top: -350px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #000000;
+    
+}
+.intrio{
+    display: flex;
+    margin-left:88px;
+    margin-top: -215px;
+}
+.box{
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.box-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.box-age{
+    width: 100px;
+    margin-top: -20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+hr{
+    width: 880px;
+    margin-left: 220px;
+    margin-top: -10px;
+}
+.nav-btn{
+    margin-left: 228px;
+    margin-top: 51px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 170px);
+    grid-row-gap: 54px;
+}
+.btn{
+    transition: all .5s ease;
+}
+.btn:hover{
+    transform:translate3d(10px, 10px,10px);
+}
+.btn:nth-child(2){
+    margin-left: 2px;
+}
+.btn:nth-child(3){
+    margin-left: -5px;
+}
+.btn:nth-child(4){
+    margin-left: 9px;
+}
+.btn:nth-child(6){
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+.btn:nth-child(7){
+    grid-row: 2/3;
+    grid-column: 3/5;
+    margin-left: -62px;
+}
+.btn:nth-child(8){
+    grid-row: 2/3;
+    grid-column: 4/5;
+    margin-left: -40px;
+}
+.btn:nth-child(9){
+    grid-row: 2/3;
+    grid-column: 5/6;
+    margin-left: -87px;
+}
+.nav-a{
+    width: 100%;    
+    height: 50px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    text-decoration: none;   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
